@@ -37,5 +37,5 @@ inst = inst_game
 #Figures.createFigure(1)
 
 # remove hashtag to create the wanted table
-Figures.createTable(1)
+Figures.createTable(3)
 

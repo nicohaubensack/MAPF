@@ -55,9 +55,9 @@ def createTable(integer):
     match integer:
         case 1:
             data_collection.compare_solvers("game",seed=28,test_size=100,cars=False)
-        case 1:
-            data_collection.compare_solvers("game",seed=28,test_size=100,cars=True)
         case 2:
+            data_collection.compare_solvers("game",seed=28,test_size=100,cars=True)
+        case 3:
             data_collection.compare_solvers("delivery",seed=18,test_size=100)
         case _:
             print(f"Table {integer} not found") 
